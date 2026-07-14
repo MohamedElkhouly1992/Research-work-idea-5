@@ -1,0 +1,12 @@
+HVAC-BMS SINGLE-FILE STREAMLIT CLOUD DEPLOYMENT
+
+1. Delete the old files from the GitHub repository, or create a new empty repository.
+2. Upload these three files directly to the repository root:
+   - streamlit_app.py
+   - requirements.txt
+   - runtime.txt
+3. Do not upload the ZIP file itself. Extract it first.
+4. In Streamlit Community Cloud, set Main file path to: streamlit_app.py
+5. Reboot the application.
+
+This version embeds the complete hvac_bms package and app.py inside streamlit_app.py, so no folders are needed.
